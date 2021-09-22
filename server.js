@@ -42,11 +42,11 @@ app.set('socketio', io);
 app.set('server', server);
 app.use(express.static(`${__dirname}/public`));
 
-server.listen(3333, (err) => {
+server.listen(1997, (err) => {
   if (err) {
     console.log(err);
   } else {
-    console.log(`listening on port 3333`);
+    console.log(`listening on port 1997`);
   }
 });
 
